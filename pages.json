@@ -1,0 +1,5 @@
+﻿[
+  {"name":"Home","content":{ 
+    "src":"template.html"
+  },"route":"/"}
+]

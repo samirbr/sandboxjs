@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+      @import url(assets/bootstrap/css/bootstrap.min.css);
+      @import url(assets/bootstrap/css/bootstrap-responsive.min.css);
+      @import url(assets/css/theme.css);
+    </style>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Javascript -->		
+	</head>
+	<body>
+    <script src="assets/js/modernizr-2.5.3.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.json-2.4.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!--
+		<script src="assets/js/sandbox.min.js"></script>
+    -->
+    <script src="assets/js/sandbox.js"></script>
+		<script>
+    <!-- add is_file -->
+		$(function () {
+			(new SANDBOX('Samir El Aouar', 'pt-BR', {
+        header: false
+      })).load('pages.json');
+		});
+		</script>
+	</body>
+</html>
